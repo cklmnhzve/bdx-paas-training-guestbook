@@ -1,4 +1,5 @@
-FROM php:5-apache
+FROM php:php:5.6-apache
+
 ADD sources.list  /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y php-pear
