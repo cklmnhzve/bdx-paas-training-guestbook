@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM index.alauda.cn/library/php:5.6-apache
 
 ADD sources.list  /etc/apt/sources.list
 RUN apt-get update
